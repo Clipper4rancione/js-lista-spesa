@@ -10,12 +10,24 @@ const aliments = [
     'Latte',
     'Pasta',
     'Verdure',
+    'Merendine',
+
 ];
 
 
-
-for(let i = 0; i < aliments.length; i++){
+//CON CICLO FOR
+/*for(let i = 0; i < aliments.length; i++){
     const item = document.createElement('li')
     item.append(aliments[i]);
     list.append(item);
-};
+};*/
+
+//CON CICLO WHILE
+let i = 0;
+
+while(aliments[i]){
+    const item = document.createElement('li')
+    item.append(aliments[i]);
+    list.append(item);
+    i++
+}
