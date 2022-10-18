@@ -11,6 +11,7 @@ const aliments = [
     'Pasta',
     'Verdure',
     'Merendine',
+    'cioccolato'
 
 ];
 
